@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body{
+    margin: 0;
+    background-color: #a7bcb9;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 90vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #fcfefe;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Poppins";
+    border-radius: 4px;
+}
+
+.icon{
+    width: 14px;
+}
+
+.info1{
+    position: absolute;
+    top:180px;
+    padding: 15px;
+    background-color: #fcfefe;
+    border-radius: 4px;
+    font-family: "Poppins";
+}
+.info2{
+    position: absolute;
+    left:280px;
+    padding: 15px;
+    background-color: #fcfefe;
+    border-radius: 4px;
+    font-family: "Poppins";
+}
+.info3{
+    position: absolute;
+    bottom:240px;
+    padding: 15px;
+    background-color: #fcfefe;
+    border-radius: 4px;
+    font-family: "Poppins";
+}
+.info4{
+    position: absolute;
+    right:280px;
+    padding: 15px;
+    background-color: #fcfefe;
+    border-radius: 4px;
+    font-family: "Poppins";
+}
+
+.triangleRight {
+    position: absolute;
+    left: 555px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 25px solid #fcfefe;
+	border-bottom: 10px solid transparent;
+}
+
+.triangleUp {
+    position: absolute;
+    bottom: 300px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 25px solid #fcfefe;
+}
+
+.triangleDown {
+    position: absolute;
+    top: 240px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 25px solid #fcfefe;
+}
+
+.triangleLeft {
+    position: absolute;
+    right: 555px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 25px solid #fcfefe;
+	border-bottom: 10px solid transparent;
+}
+
+.select{
+    margin-bottom: 300px;
+    width: 120px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #fcfefe;
+    font-family: "Poppins";
+    border-radius: 4px;
+}
